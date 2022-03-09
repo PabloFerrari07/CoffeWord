@@ -756,6 +756,12 @@
     grid-template-rows: repeat(2, 300px);
   }
 }
+@media only screen and (min-width: 1000px) and (max-width: 1999px) {
+  .secTwo__galeriaNO {
+    grid-template-columns: repeat(2, 450px);
+    grid-template-rows: repeat(2, 300px);
+  }
+}
 @media only screen and (max-width: 999px) {
   .secTwo__galeriaNO {
     grid-template-columns: repeat(2, 400px);
