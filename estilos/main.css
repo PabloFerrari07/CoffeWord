@@ -428,7 +428,6 @@
 }
 
 .sectwo__allOP {
-  /* height: 100vh; */
   padding-bottom: 200px;
 }
 
@@ -465,7 +464,6 @@
 }
 
 .secthree__allOP {
-  /* height: 100vh; */
   padding-bottom: 50px;
 }
 
@@ -556,7 +554,6 @@
 }
 
 .secTwo__allSU {
-  /* height: 100vh; */
   padding-top: 150px;
   padding-bottom: 200px;
 }
@@ -566,7 +563,6 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  /* margin-left: 25px; */
 }
 
 .sectwo__sucursalSU, .sectwo__sucursal-3SU, .sectwo__sucursal-2SU {
@@ -694,7 +690,6 @@
   align-items: center;
 }
 .sectwo__allTI .sectwoarticle__textoTI {
-  /* width: 100%; */
   margin-top: 15px;
   margin-left: 5px;
   margin-bottom: 15px;
@@ -734,7 +729,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
-  /* padding-left: 50px; */
   padding-top: 50px;
   color: #fff;
   flex-wrap: wrap;
