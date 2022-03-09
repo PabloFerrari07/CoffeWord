@@ -370,9 +370,11 @@
 }
 
 .secTwo__Gitem1IMGNO {
+  background-repeat: no-repeat;
   background-image: url(imagenes/nosotros/img-nosotros2.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  width: 100%;
   margin-right: 25px;
 }
 
@@ -384,7 +386,8 @@
 .secTwo__Gitem3IMGNO {
   background-image: url(imagenes/nosotros/img-nosotros.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-right: 25px;
 }
 
@@ -747,6 +750,18 @@
   font-size: 25px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .secTwo__galeriaNO {
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 300px);
+  }
+}
+@media only screen and (max-width: 999px) {
+  .secTwo__galeriaNO {
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, 300px);
+  }
+}
 @media only screen and (max-width: 868px) {
   .secthree__allOP {
     width: 600px;
