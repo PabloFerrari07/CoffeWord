@@ -85,11 +85,11 @@ $color3:    #fff;
             text-decoration: none;
             color: $color3;
             padding: 20px 20px 20px 20px;
-            background-color: #872d02;
+            background-color: $color1;
         }
         
         .hero__titulo a:hover{
-            border: 1px solid #fff;
+            border: 1px solid $color3;
             background-color: transparent;
             color: $color3;
         }
@@ -102,7 +102,7 @@ $color3:    #fff;
     }
     .secFirst__all{
         min-height: 500px;
-        color: #742704;
+        color: $color1;
         margin-top: 50px;
         margin-bottom: 25px;
     
@@ -148,7 +148,7 @@ $color3:    #fff;
     
         .secTwo__titulo{
             text-align: center;
-            color: #742704;
+            color: $color1;
             font-size: 25px;
         }
     
@@ -160,7 +160,7 @@ $color3:    #fff;
         
         .sectwo__article{
             width: 300px;
-            background-color: #fff;
+            background-color: $color3;
             
             text-align: center;
             box-shadow: 0 0 2px #000;
@@ -171,7 +171,7 @@ $color3:    #fff;
             
         
         .sectwo__contenedorTextos{
-            background-color: #fff; 
+            background-color: $color3; 
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -211,11 +211,11 @@ $color3:    #fff;
                     text-decoration: none;
                     padding: 5px 5px 5px 5px;
                     border: 1px solid #742704;
-                    color: #872d02;
+                    color: $color1;
                 }
                 
                 .sectwoarticle__compra a:hover{
-                    background-color: #872d02;
+                    background-color: $color1;
                     color: $color3;
                 }
     
@@ -273,7 +273,7 @@ $color3:    #fff;
             padding-top: 15px; 
             height: 100%;
             background-color: rgba(0,0,0,.5);
-            color: #fff;
+            color: $color3;
             font-size: 20px;
             text-align: center;
             }
@@ -323,12 +323,12 @@ $color3:    #fff;
                 
                 .secFour__titulo{
                     text-align: center;
-                    color: #742704;
+                    color: $color1;
                     font-size: 25px;
                 }
               
                 .secfour__op{
-                    background-color: #fff;
+                    background-color: $color3;
                     width: 250px;
                     margin-left: 25px;
                     height: 350px;
@@ -374,7 +374,7 @@ $color3:    #fff;
                 padding-left: 50px;
                 padding-bottom: 150px;
                 padding-right: 50px;
-                color: #742704;
+                color: $color1;
             }
 
             .secFirst__HistoriaNO p{
@@ -382,7 +382,7 @@ $color3:    #fff;
             }
 
             .secall__linea{
-                border-bottom: 2px solid #742704;
+                border-bottom: 2px solid $color1;
                 margin-bottom: 15px;
                 margin-top: 15px;
                 margin: auto;
@@ -499,7 +499,7 @@ $color3:    #fff;
     }
 
     .secFirst__lineOP{
-        border-bottom: 1px solid #872d02;
+        border-bottom: 1px solid $color1;
         width: 90%;
         margin-top: 5px;
         margin: auto;
@@ -519,7 +519,7 @@ $color3:    #fff;
         margin-top: 50px;
         display: flex;
         justify-content: space-evenly;
-        color: #872d02;
+        color: $color1;
     }
 
     .sectwo__usuariotextOP{
@@ -637,7 +637,7 @@ $color3:    #fff;
     }
     
     .secFirst__line{
-        border-bottom: 1px solid #872d02;
+        border-bottom: 1px solid $color1;
         width: 90%;
         margin: auto;
         margin-top: 5px;
@@ -687,7 +687,7 @@ $color3:    #fff;
         margin-bottom: 15px;
     }
     .sectwo__sucursaltextSU{
-        color: #872d02;
+        color: $color1;
     
         
     }
@@ -712,7 +712,7 @@ $color3:    #fff;
      //////////TIENDA//////////////////
      
 .secFirst__allTI{
-    background-color: #fff;
+    background-color: $color3;
     background-image: url(imagenes/wave/wave.svg);
     background-position: center;
     background-size: cover;
@@ -745,7 +745,7 @@ $color3:    #fff;
     width: 100px;
     border-radius: 5px;
     padding: 20px 20px 20px 20px;
-    background-color: #872d02;
+    background-color: $color1;
 }
 
 .secFirst__heroTI a:hover{
@@ -760,7 +760,7 @@ $color3:    #fff;
 
 
 .secFirst__line{
-    border-bottom: 1px solid #872d02;
+    border-bottom: 1px solid $color1;
     width: 90%;
     margin-top: 5px;
     margin: auto;
@@ -773,7 +773,7 @@ $color3:    #fff;
     
     .sectwo__subtituloTI h4{
         text-align: center;
-        color: #742704;
+        color: $color1;
         font-size: 35px;
     }
 
@@ -785,7 +785,7 @@ $color3:    #fff;
     
     .sectwo__articleTI{
         width: 300px;
-        background-color: #fff;
+        background-color: $color3;
         
         text-align: center;
         box-shadow: 0 0 2px #000;
@@ -796,7 +796,7 @@ $color3:    #fff;
     
     
     .sectwo__contenedorTextosTI{
-        background-color: #fff; 
+        background-color: $color3; 
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -820,7 +820,7 @@ $color3:    #fff;
     
     .sectwoarticle__textoTI p{
        font-size: 18px;
-       background-color: #742704;
+       background-color: $color1;
        color: #fff;
        padding: 5px 5px 5px 5px;
        border-radius: 5px;
@@ -836,13 +836,13 @@ $color3:    #fff;
     .sectwoarticle__compraTI a{
         text-decoration: none;
         padding: 5px 5px 5px 5px;
-        border: 1px solid #742704;
-        color: #872d02;
+        border: 1px solid $color1;
+        color: $color1;
     }
     
     .sectwoarticle__compraTI a:hover{
-       background-color: #872d02;
-       color: #fff;
+       background-color: $color1;
+       color: $color3;
     }
 }
 

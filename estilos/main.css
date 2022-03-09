@@ -71,7 +71,7 @@
   text-decoration: none;
   color: #fff;
   padding: 20px 20px 20px 20px;
-  background-color: #872d02;
+  background-color: #742704;
 }
 .hero__all .hero__titulo a:hover {
   border: 1px solid #fff;
@@ -176,10 +176,10 @@
   text-decoration: none;
   padding: 5px 5px 5px 5px;
   border: 1px solid #742704;
-  color: #872d02;
+  color: #742704;
 }
 .secTwo__all .sectwoarticle__compra a:hover {
-  background-color: #872d02;
+  background-color: #742704;
   color: #fff;
 }
 
@@ -421,7 +421,7 @@
 }
 
 .secFirst__lineOP {
-  border-bottom: 1px solid #872d02;
+  border-bottom: 1px solid #742704;
   width: 90%;
   margin-top: 5px;
   margin: auto;
@@ -441,7 +441,7 @@
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
-  color: #872d02;
+  color: #742704;
 }
 
 .sectwo__usuariotextOP {
@@ -549,7 +549,7 @@
 }
 
 .secFirst__line {
-  border-bottom: 1px solid #872d02;
+  border-bottom: 1px solid #742704;
   width: 90%;
   margin: auto;
   margin-top: 5px;
@@ -593,7 +593,7 @@
 }
 
 .sectwo__sucursaltextSU {
-  color: #872d02;
+  color: #742704;
 }
 
 .sectwo__sucursaltextSU h4 {
@@ -644,7 +644,7 @@
   width: 100px;
   border-radius: 5px;
   padding: 20px 20px 20px 20px;
-  background-color: #872d02;
+  background-color: #742704;
 }
 
 .secFirst__heroTI a:hover {
@@ -658,7 +658,7 @@
 }
 
 .secFirst__line {
-  border-bottom: 1px solid #872d02;
+  border-bottom: 1px solid #742704;
   width: 90%;
   margin-top: 5px;
   margin: auto;
@@ -720,10 +720,10 @@
   text-decoration: none;
   padding: 5px 5px 5px 5px;
   border: 1px solid #742704;
-  color: #872d02;
+  color: #742704;
 }
 .sectwo__allTI .sectwoarticle__compraTI a:hover {
-  background-color: #872d02;
+  background-color: #742704;
   color: #fff;
 }
 
