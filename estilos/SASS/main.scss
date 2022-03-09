@@ -491,6 +491,13 @@ $color3:    #fff;
 
     }
 
+    .secFirst__tituloOP p{
+        height: 400px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     .secFirst__lineOP{
         border-bottom: 1px solid #872d02;
         width: 90%;
@@ -517,6 +524,7 @@ $color3:    #fff;
 
     .sectwo__usuariotextOP{
         margin-left: 15px;
+        margin-right: 15px;
     }
 
     .sectwo__usuariotextOP h3{
@@ -547,26 +555,65 @@ $color3:    #fff;
     
     }
 
-    .secthree__inputsOP textarea{
-        width: 90%;
-        // max-width: 700px;
-        margin-left: 50px;
-        height: 200px;
-        max-height: 300px;
-        border: none;
-        text-align: center;
+    .secthree__allOP1{
+        // padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .secthree__allOP{
+      min-height: 500px;
+      width: 700px;
+      margin-bottom: 50px;  
+      height: 500px;
+
+      border: 2px solid $color1;
+      border-radius: 20px;
+      display: flex;
     
+    }
+
+    .secthree__inputsOP{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
     }
 
     .secthree__inputsOP input{
         border: none;
-        padding: 20px 20px 20px 20px;
-        margin-left: 50px;
-        background-color: #872d02;
-        cursor: pointer;
-        color: #fff;
+        background-color: $color2;
+        
+        border-bottom: 1px solid black;
     }
 
+
+    .secthree__IMGOP{
+        background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(imagenes/nosotros/img-nosotros3.jpg);
+        background-position: center;
+        background-size: cover;
+        color: $color3;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 100px;
+      
+        padding-left: 25px;
+        padding-right: 25px;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 500px;
+        border-radius: 20px;
+    }
+
+    #buttonOP{
+        padding: 20px 20px 20px 20px;
+        border: 2px solid black;
+    }
+
+    #buttonOP:hover{
+        background-color: #000;
+        color: $color2;
+    }
     //////////SUCURSALES//////////////////
 
     .secFirst__allSU{
@@ -811,6 +858,7 @@ $color3:    #fff;
         background-attachment: fixed;
         display: flex;
         /* padding-left: 50px; */
+        padding-top: 50px;
         color: $color3;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -835,6 +883,16 @@ $color3:    #fff;
     
   
   @media only screen and (max-width:868px){
+
+    .secthree__allOP{
+        width: 600px;
+    }
+
+   .secthree__IMGOP{
+       height: 500px;
+       width: 300px;
+   }
+    
     .hero__all{
         height: 500px;
     }
@@ -858,6 +916,21 @@ $color3:    #fff;
   }    
   
   @media only screen and (max-width:670px){
+
+    .secthree__allOP{
+        width: 400px;
+    }
+
+   .secthree__IMGOP{
+       height: 500px;
+       padding-top: 20px;
+       width: 350px;
+   }
+
+   .secthree__IMGOP p{
+       font-size: 20px;
+   }
+    
     
     .sectwo__sucursalesAllSU{
         align-items: center;
@@ -893,8 +966,31 @@ $color3:    #fff;
   
   
   }
+
+  @media only screen and (max-width:480px){
+    .secthree__allOP{
+        width: 300px;
+    }
+
+   .secthree__IMGOP{
+       height: 499px;
+       padding-top: 20px;
+       width: 400px;
+   }
+
+   .secthree__inputsOP input{
+       width: 150px;
+   }
+
+   .secthree__IMGOP p{
+       font-size: 15px;
+   }
+    
+  }
   
   @media only screen and (max-width:390px){
+
+    
 
     .secTwo__galeriaNO{
         grid-template-columns:100%;
