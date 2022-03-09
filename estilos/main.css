@@ -354,7 +354,7 @@
 
 .secTwo__galeriaNO {
   display: grid;
-  grid-template-columns: repeat(2, 400px);
+  grid-template-columns: repeat(2, 600px);
   text-align: center;
   grid-template-rows: repeat(2, 300px);
   color: #742704;
